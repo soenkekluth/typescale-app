@@ -4,7 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "build":"nativefier --darwin-dark-mode-support -f  --build-version 1.0.0 -n TypeScale -p 'mac' https://type-scale.com/",
+    "build":"nativefier --darwin-dark-mode-support -f  --build-version 1.0.0 -n TypeScale -p 'mac' https://type-scale.com/ ./build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
