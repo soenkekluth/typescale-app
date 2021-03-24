@@ -2,8 +2,9 @@
   "name": "typescale-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
+    "build":"nativefier --darwin-dark-mode-support -f  --build-version 1.0.0 -n TypeScale -p 'mac' https://type-scale.com/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/soenkekluth/typescale-app/issues"
   },
-  "homepage": "https://github.com/soenkekluth/typescale-app#readme"
+  "homepage": "https://github.com/soenkekluth/typescale-app#readme",
+  "dependencies": {
+    "nativefier": "^43.0.0"
+  }
 }
