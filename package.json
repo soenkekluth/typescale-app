@@ -1,0 +1,27 @@
+{
+  "name": "typescale-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soenkekluth/typescale-app.git"
+  },
+  "keywords": [
+    "type",
+    "scale",
+    "modular",
+    "typo",
+    "design",
+    "pattern"
+  ],
+  "author": "Sönke Kluth <mail@soenkekluth.com> (https://soenkekluth.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soenkekluth/typescale-app/issues"
+  },
+  "homepage": "https://github.com/soenkekluth/typescale-app#readme"
+}
